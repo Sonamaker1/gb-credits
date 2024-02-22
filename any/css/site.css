@@ -1,0 +1,186 @@
+* {
+	font-size: 16px;
+}
+
+h1,
+h1 a,
+h1 em {
+	font-size: 36px;
+	position: relative;
+	text-decoration: none;
+}
+
+h1:after {
+	content: '';
+	width: 1em;
+	height: 3px;
+	background: #444;
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+}
+
+h2 {
+	font-size: 24px;
+	position: relative;
+}
+
+h2:after {
+	content: '';
+	width: 1em;
+	height: 2px;
+	background: #444;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+
+body {
+	font-family: verdana, arial;
+	background: #111214;
+	padding: 1%;
+	color: #e2e2e2;
+	background-color: #000;
+	opacity: 0.8;
+	background-image: linear-gradient(-45deg, #000, #111214 50%, #111214 50%, #111214);
+	background-size: 10px 10px;
+	display: block;
+	text-align: center;
+	
+}
+
+.container2{
+	display: block;
+	columns: 3;
+	text-align: center;
+}
+
+span {
+	display:inline-block;
+	max-width: 200px;
+}
+
+.name {
+	font-size: 20px;
+}
+
+.center{
+	text-align: center;
+}
+
+.MulticallLabel {
+	border-radius: 3px;
+	background: #ff5397;
+	color: black;
+	padding: 2px 4px;
+}
+
+a {
+	color: #ffd800;
+	text-decoration: none;
+}
+
+.nowrap {
+	break-inside: avoid-column;
+}
+
+a:hover {
+	color: #FF5E9D;
+}
+
+pre {
+	white-space: pre-wrap;
+	color: grey;
+}
+
+textarea,
+button {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1em;
+	border: 0;
+}
+
+textarea {
+	width: 400px;
+	font-family: "Courier New", Courier, monospace;
+	color: #6CB1E1;
+}
+
+button {
+	color: #e2e2e2;
+	cursor: pointer;
+	border-radius: 3px;
+	background: #45535d;
+}
+
+button:hover {
+	background: #404040;
+	color: #FF5E9D;
+}
+
+.RawUrlLabel {
+	background: #ffd800;
+	color: black;
+	border-radius: 3px;
+	padding: 2px 4px;
+}
+
+.RawUrlLabel:hover {
+	background: #FF5E9D;
+	color: white;
+}
+
+p#ApiCall {
+	color: grey;
+	word-break: break-word;
+}
+
+p#ApiCall paramName,
+p#ApiCall paramVal {
+	margin: 0 3px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+tfoot {
+	text-align: right;
+}
+
+td,
+th {
+	border: 2px solid #222;
+	text-align: left;
+	padding: 1em;
+	vertical-align: top;
+}
+
+td td {
+	border: none;
+	padding: 0 10px 10px 0;
+}
+
+td.Parameter {
+	text-align: right;
+}
+
+paramVal {
+	color: #6CB1E1;
+	font-family: monospace, 'courier new'
+}
+
+paramName {
+	color: #6EE16C;
+}
+
+.bold {
+    color: #ffd800;
+    font-size: 48px;
+	font-weight: bold;
+}
+
+.shadow {
+    text-shadow: 1px 1px #000;
+}
