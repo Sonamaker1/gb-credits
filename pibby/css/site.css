@@ -57,6 +57,7 @@ body {
 
 span {
 	display:inline-block;
+	max-width: 200px;
 }
 
 .name {
@@ -80,7 +81,6 @@ a {
 }
 
 .nowrap {
-	white-space: nowrap;
 	break-inside: avoid-column;
 }
 
